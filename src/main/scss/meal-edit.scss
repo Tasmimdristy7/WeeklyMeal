@@ -1,0 +1,16 @@
+.form-checkbox-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  label {
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.edit-container {
+  padding: 50px 10px 50px 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+@import "extra/variables";
+
+$border-color: adjust_color($primaryColor, $lightness: 35%);
+
+.primary-color {
+  color: $primaryColor;
+}
+
+.day-col-bg {
+  background-color: adjust_color($primaryColor, $lightness: 45%);
+}
+
+.day-cell {
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.slot-item-cell {
+  border-bottom: 1px solid $border-color;
+}
+
+.button-container {
+  position: absolute;
+  top: 7px;
+  right: 0;
+}

@@ -1,0 +1,61 @@
+.logo {
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #c1dff2;
+}
+
+thead {
+    background: #2E91D3;
+    transform: scale(1.009);
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+tbody::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 10px 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf5fb;
+}
+
+.delete-button {
+    transform: scale(0.8);
+    position: relative;
+    top: -1px;
+    left: -5px;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.no-decoration:hover {
+    text-decoration: none;
+}
+
+.no-decoration:focus {
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=global.css.map */
